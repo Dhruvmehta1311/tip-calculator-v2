@@ -42,7 +42,7 @@ function Header() {
       {/* Mobile Navbar */}
       {isOpen ? (
         <div className="bg-[#1F2937] w-[95%] absolute top-20 left-2 rounded-md">
-          <ul className=" flex flex-col  sm:hidden py-4 px-6">
+          <ul className=" flex flex-col  sm:hidden py-4 px-2">
             {headerItems.map((headerItem) => (
               <li
                 className="cursor-pointer text-lg py-2 w-full hover:bg-gray-600 rounded pl-4"
