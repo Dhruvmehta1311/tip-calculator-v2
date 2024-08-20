@@ -18,7 +18,7 @@ const headerItems = [
 ];
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="text-white flex flex-col gap-4 max-w-[1300px] w-[90%] mx-auto py-6">
