@@ -1,4 +1,4 @@
-const Main = () => {
+const TotalBill = () => {
   return (
     <div className="text-white">
       <div>
@@ -14,4 +14,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default TotalBill;
