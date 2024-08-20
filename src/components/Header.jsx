@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-/* eslint-disable react/jsx-key */
 const headerItems = [
   {
     id: 1,
