@@ -21,7 +21,6 @@ function Service({ serviceReview, setserviceReview }) {
             <option value="10">It was Good (10%)</option>
             <option value="100">Absolutely Amazing (100%)</option>
           </select>
-          <p>{serviceReview}</p>
         </div>
       </>
     </div>

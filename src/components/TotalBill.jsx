@@ -15,7 +15,6 @@ const TotalBill = ({ bill, totalBill, setBill }) => {
             className="h-[38px] w-full sm:w-[600px] bg-transparent border rounded-md outline-none p-4 "
             type="number"
           />
-          <p>{bill}</p>
         </div>
       </>
     </div>

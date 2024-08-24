@@ -25,7 +25,6 @@ function FriendServiceReview({
             <option value="10">It was Good (10%)</option>
             <option value="100">Absolutely Amazing (100%)</option>
           </select>
-          <p>{friendServicePercentage}</p>
         </div>
       </>
     </div>
