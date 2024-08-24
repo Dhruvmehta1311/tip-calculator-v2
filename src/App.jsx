@@ -29,7 +29,11 @@ function App() {
           friendServicePercentage={friendServicePercentage}
           bill={bill}
         />
-        <Reset />
+        <Reset
+          setBill={setBill}
+          setFriendServicePercentage={setFriendServicePercentage}
+          setserviceReview={setserviceReview}
+        />
       </div>
     </div>
   );

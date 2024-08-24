@@ -16,6 +16,7 @@ function FriendServiceReview({
           <p>How did your friend liked the service?</p>
           <select
             onChange={friendService}
+            value={friendServicePercentage}
             className="bg-gray-600 px-4 py-3 rounded"
             name=""
             id=""
