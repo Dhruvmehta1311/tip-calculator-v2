@@ -29,7 +29,7 @@ function Header() {
               className="cursor-pointer text-lg hover:text-blue-700"
               key={headerItem.id}
             >
-              {headerItem.name}
+              <a href={headerItem.name}>{headerItem.name}</a>
             </li>
           ))}
         </ul>
