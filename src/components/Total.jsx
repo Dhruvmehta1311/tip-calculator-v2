@@ -10,7 +10,7 @@ function Total({ bill, friendServicePercentage, serviceReview }) {
   return (
     <div className="text-white">
       {bill > 0 ? (
-        <p className="text-2xl md:text-3xl ">
+        <p className="text-lg sm:text-2xl md:text-3xl ">
           You Pay ${bill} (${bill} + ${totalPercentage} tip = {totalAmount})
         </p>
       ) : null}
