@@ -1,10 +1,9 @@
 import { useState } from "react";
 
-function Service() {
-  const [serviceReview, setserviceReview] = useState("");
+function Service({ serviceReview, setserviceReview }) {
   function servicePercentage(e) {
     console.log(e.target.value);
-    setserviceReview(e.target.value);
+    setserviceReview(Number(e.target.value));
   }
   return (
     <div className="text-white">

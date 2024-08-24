@@ -3,16 +3,31 @@ import Header from "./components/Header";
 import Service from "./components/Service";
 import Total from "./components/Total";
 import TotalBill from "./components/TotalBill";
+import { useState } from "react";
 
 function App() {
+  const [bill, setBill] = useState(0);
+  const [serviceReview, setserviceReview] = useState(0);
+  const [friendServicePercentage, setFriendServicePercentage] = useState(0);
+
   return (
     <div className="bg-gray-900 min-h-screen w-full font-josefin">
       <div className="max-w-[1500px] w-[90%] mx-auto flex flex-col gap-4">
         <Header />
-        <TotalBill />
-        <Service />
-        <FriendServiceReview />
-        <Total />
+        <TotalBill setBill={setBill} bill={bill} />
+        <Service
+          setserviceReview={setserviceReview}
+          serviceReview={serviceReview}
+        />
+        <FriendServiceReview
+          setFriendServicePercentage={setFriendServicePercentage}
+          friendServicePercentage={friendServicePercentage}
+        />
+        <Total
+          serviceReview={serviceReview}
+          friendServicePercentage={friendServicePercentage}
+          bill={bill}
+        />
       </div>
     </div>
   );

@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-function FriendServiceReview() {
-  const [friendServicePercentage, setFriendServicePercentage] = useState("");
-
+function FriendServiceReview({
+  friendServicePercentage,
+  setFriendServicePercentage,
+}) {
   const friendService = (e) => {
     console.log(e.target.value);
-    setFriendServicePercentage(e.target.value);
+    setFriendServicePercentage(Number(e.target.value));
   };
 
   return (

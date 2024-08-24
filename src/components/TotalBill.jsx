@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-const TotalBill = () => {
-  const [bill, setBill] = useState(null);
+const TotalBill = ({ bill, totalBill, setBill }) => {
   function totalBill(e) {
     console.log(e.target.value);
     setBill(e.target.value);
