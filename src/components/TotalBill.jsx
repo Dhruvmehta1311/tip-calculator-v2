@@ -1,7 +1,7 @@
 const TotalBill = () => {
   return (
     <div className="text-white">
-      <div>
+      <>
         <div className="flex flex-col gap-4 md:flex-row md:items-center">
           <p>How much was the Bill?</p>
           <input
@@ -9,7 +9,7 @@ const TotalBill = () => {
             type="text"
           />
         </div>
-      </div>
+      </>
     </div>
   );
 };
