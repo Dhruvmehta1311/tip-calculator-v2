@@ -3,7 +3,7 @@ import { useState } from "react";
 const TotalBill = ({ bill, totalBill, setBill }) => {
   function totalBill(e) {
     console.log(e.target.value);
-    setBill(e.target.value);
+    setBill(Number(e.target.value));
   }
   return (
     <div className="text-white">
