@@ -13,7 +13,7 @@ function FriendServiceReview({
     <div className="text-white">
       <>
         <div className="flex flex-col gap-4 md:flex-row md:items-center">
-          <p>How did you liked the service?</p>
+          <p>How did your friend liked the service?</p>
           <select
             onChange={friendService}
             className="bg-gray-600 px-4 py-3 rounded"
