@@ -22,7 +22,7 @@ function Header() {
   return (
     <div className="text-white flex flex-col gap-4 max-w-[1300px] w-[90%] mx-auto py-6">
       <div className="flex items-center justify-between w-full">
-        <p className="text-2xl">EatNSplit</p>
+        <p className="text-2xl">Tip Calculator V2</p>
         <ul className="gap-4 items-center justify-between hidden sm:flex">
           {headerItems.map((headerItem) => (
             <li
