@@ -4,7 +4,7 @@ const Reset = ({ setserviceReview, setFriendServicePercentage, setBill }) => {
   function resetValues() {
     setserviceReview(0);
     setFriendServicePercentage(0);
-    setBill(0);
+    setBill("");
   }
   return (
     <div>

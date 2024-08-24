@@ -7,7 +7,7 @@ import TotalBill from "./components/TotalBill";
 import { useState } from "react";
 
 function App() {
-  const [bill, setBill] = useState(0);
+  const [bill, setBill] = useState("");
   const [serviceReview, setserviceReview] = useState(0);
   const [friendServicePercentage, setFriendServicePercentage] = useState(0);
 
